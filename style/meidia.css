@@ -1,0 +1,729 @@
+/* extra large */
+@media screen and (max-width:1530px) and (min-width:1200px) {
+
+   .about-left
+   {
+      width: 40%;
+      /* border: none; */
+      height: 100%;
+      
+   }
+/* start of blog */
+.blog-container
+{
+   width:95%;
+   margin: auto;
+}
+.blog-item
+{
+   width: 50%;
+   padding: 15px;
+}
+.blog-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 0;
+   justify-content: center;
+}
+/* end of blog */
+   
+
+}
+
+
+/* **********************************************large */
+@media screen and (max-width:1200px) and (min-width:992px) {
+    /* start of nav  */
+.container-nav
+{
+    width: 92%;
+}
+.nav-bar ul
+{
+    width: 70%;
+}
+ /* end of nav  */ 
+
+ /* start of about */
+ .container-about
+ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    
+ }
+ .about-left
+ {
+    width: 50%;
+    /* border: none; */
+    height: 85%;
+    margin: 0 ;
+ }
+ .about-right
+ {
+    width:45%;
+    margin: 0px ;
+ }
+
+.caption-right-2
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.caption-right-2 p
+{
+   margin: 0;
+   line-height: 2.2;
+}
+.caption-right-2
+{
+ display: flex;
+ font-size: 14px;
+}
+.caption-right-2 .part-1 
+{
+ margin-right: 10px;
+ /* background-color: red; */
+}
+.about-right .btn
+{
+   padding: 10px 20px;
+   font-size:16px;
+}
+/* end of about */
+
+/* start of services */
+.services h2
+{
+   font-size:24px;
+}
+.container-services
+{
+    width: 95%;
+    margin: auto;
+}
+.services-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.services-item
+{
+   width: 50%;
+}
+/* end of services */
+
+/* start of blog */
+
+.blog-item h3
+{
+   font-size: 13.5px;
+}
+.blog-container
+{
+   width:95%;
+   margin: auto;
+}
+.blog-item
+{
+   width: 50%;
+   padding: 15px;
+}
+.blog-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 0;
+   justify-content: center;
+}
+/* end of blog */
+
+/* start of contact */
+.contact-container
+{
+   width:65%
+}
+form
+{
+   width: 100%;
+}
+form input
+{
+   width: 100%;
+}
+/* end of contact */
+
+
+}
+
+
+
+
+
+
+
+
+/********************************************** medium */
+
+@media screen and (max-width:992px) and (min-width:768px) {
+/* start of nav  */
+.container-nav
+{
+    width: 92%;
+}
+.nav-bar ul
+{
+    width: 70%;
+}
+ /* end of nav  */ 
+
+   /* start of about */
+   .container-about
+   {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      
+   }
+   .about-left
+   {
+      width: 50%;
+      border: none;
+      margin: 0 ;
+   }
+   .about-right
+   {
+      width:45%;
+      margin: 0px ;
+   }
+   .about-member
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+   
+  }
+  .caption-right-2
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .caption-right-2 p
+  {
+     margin: 0;
+     line-height: 2.2;
+  }
+  .caption-right-2 p span
+  {
+   font-size: 14px !important;
+  }
+  .caption-right-2
+  {
+   display: flex;
+   flex-wrap: nowrap;
+   font-size: 11px;
+   column-gap: 13px;
+   
+
+  }
+  .caption-right-2 .part-1 
+  {
+   margin-right: 0px;
+   /* background-color: red; */
+  }
+
+  .about-right .btn
+  {
+     padding: 10px 20px;
+     font-size:16px;
+  }
+  /* end of about */
+
+  /* start of services */
+.services h2
+{
+   font-size:24px;
+}
+.container-services
+{
+    width: 100%;
+    margin: auto;
+}
+.services-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.services-item
+{
+   width: 50%;
+}
+/* end of services */
+
+/* start of portfolio */
+.container-Portfolio
+{
+   width: 92%;
+   
+}
+.Portfolio-item
+{
+   width: 45%;
+}
+/* end of porfolio */
+
+/* start of feedback */
+.feedback-container
+{
+   width:90%;
+   margin: auto;
+}
+.feedback-item-1
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+}
+.feedback-item-1 img
+{
+   margin:auto;
+   width:120px;
+   height:120px;
+   transform: translate(-45%);
+}
+
+.feedback-caption
+{
+   width: 100%;
+   margin-left: 40px;
+}
+/* end of feedback */
+
+/* start of blog */
+.blog-item h3
+{
+   font-size: 15px;
+}
+.blog-container
+{
+   width:95%;
+   margin: auto;
+}
+.blog-item
+{
+   width: 50%;
+   padding: 15px;
+}
+.blog-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 0;
+   justify-content: center;
+}
+/* end of blog */
+
+/* start of contact */
+.contact-container
+{
+   width:87%
+}
+form
+{
+   width: 100%;
+}
+form input
+{
+   width: 100%;
+}
+/* end of contact */
+
+}
+
+
+
+
+
+
+
+/************************************************ small */
+@media screen and (max-width:768px) and (min-width:600px) {
+ /* start of nav  */
+ .nav-bar ul
+ {
+    display: none;
+ }
+ .nav-bar .settings
+ {
+    display: block;
+ }
+ /* end of nav  */
+
+  /* start of home */
+  .home-caption p
+  {
+     font-size:21px
+  }
+  .home-caption h1
+  {
+     font-size: 40px;
+  }
+  .home-caption h3,.home-caption h3::after
+  {
+     font-size: 15px;
+  }
+  /* end of home */
+
+   /* start of about */
+ .container-about
+ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    
+ }
+ .about-left
+ {
+    width: 92%;
+    border: none;
+    margin: auto;
+ }
+ .about-right
+ {
+    width: 92%;
+    margin: 25px auto;
+ }
+ .about-member
+{
+    position: relative;
+    top: 0;
+    left: 0;
+ 
+}
+.caption-right-2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caption-right-2 p
+{
+   margin: 0;
+   line-height: 2.2;
+}
+.about-right .btn
+{
+   padding: 13px 24px;
+    font-size:16px;
+}
+/* end of about */
+
+/* start of services */
+.services h2
+{
+   font-size:24px;
+}
+.container-services
+{
+    width: 100%;
+    margin: auto;
+}
+.services-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.services-item
+{
+   width: 70%;
+   margin: auto;
+}
+.services-item h3
+{
+   font-size: 19px;
+}
+/* end of services */
+
+/* start of Portfolio */
+.container-Portfolio
+{
+   width: 65%;
+   margin: auto;
+}
+.Portfolio-item
+{
+   width: 100%;
+}
+/* end of Portfolio */
+
+/* start of info */
+.info-items
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.info-item
+{
+   width: 50%;
+}
+/* end of info */
+
+/* start of feedback */
+.feedback-container
+{
+   width:68%;
+   margin: auto;
+}
+.feedback-item-1
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+}
+.feedback-item-1 img
+{
+   margin:auto;
+   width:100px;
+   height:100px;
+   transform: translateX(-40%);
+
+}
+
+.feedback-caption
+{
+   width: 100%;
+   margin-left: 5px;
+}
+/* end of feedback */
+
+/* start of blog */
+.blog-items
+{
+   display: flex;
+   flex-wrap: wrap
+}
+.blog-item
+{
+   width: 100%;
+   padding: 15px;
+}
+/* end of blog */
+
+/* start of contact */
+.contact-container
+{
+   width:87%
+}
+form
+{
+   width: 100%;
+}
+form input
+{
+   width: 100%;
+}
+.inputs-up
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.email
+{
+   margin-top: 20px;
+}
+/* end of contact */
+
+}
+
+
+
+
+
+
+
+
+
+
+/*******************************************extra small */
+@media screen and (max-width:600px) {
+ /* start of nav  */
+ .nav-bar ul
+ {
+    display: none;
+ }
+ .nav-bar .settings
+ {
+    display: block;
+ }
+ /* end of nav  */
+
+ /* start of home */
+ .home-caption p
+ {
+    font-size:21px
+ }
+ .home-caption h1
+ {
+    font-size: 40px;
+ }
+ .home-caption h3,.home-caption h3::after
+ {
+    font-size: 15px;
+ }
+ /* end of home */
+
+ /* start of about */
+ .container-about
+ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    
+ }
+ .about-left
+ {
+    width: 92%;
+    border: none;
+    margin: auto;
+ }
+ .about-right
+ {
+    width: 92%;
+    margin: 25px auto;
+ }
+ .about-member
+{
+    position: relative;
+    top: 0;
+    left: 0;
+ 
+}
+.caption-right-2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caption-right-2 p
+{
+   margin: 0;
+   line-height: 2.2;
+}
+.about-right .btn
+{
+    padding: 8px 20px;
+    font-size:16px;
+}
+/* end of about */
+
+/* start of services */
+.services h2
+{
+   font-size:24px;
+}
+.container-services
+{
+    width: 95%;
+    margin: auto;
+}
+.services-items
+{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.services-item
+{
+   width: 100%;
+}
+/* end of services */
+
+/* start of Portfolio */
+.container-Portfolio
+{
+   width: 85%;
+}
+.Portfolio-item
+{
+   width: 100%;
+}
+/* end of Portfolio */
+
+/* start of info */
+.info-items
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.info-item
+{
+   width: 100%;
+}
+/* end of info */
+
+/* start of feedback */
+.feedback-container
+{
+   width:95%;
+   margin: auto;
+}
+.feedback-item-1
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+}
+.feedback-item-1 img
+{
+   margin:auto;
+   width:100px;
+   height:100px;
+   transform: translateX(-40%);
+}
+
+.feedback-caption
+{
+   width: 100%;
+   margin-left: 5px;
+}
+/* end of feedback */
+
+/* start of blog */
+.blog-items
+{
+   display: flex;
+   flex-wrap: wrap
+}
+.blog-item
+{
+   width: 100%;
+   padding: 15px;
+}
+/* end of blog */
+
+/* start of contact */
+.contact-container
+{
+   width:87%
+}
+form
+{
+   width: 100%;
+}
+form input
+{
+   width: 100%;
+}
+.inputs-up
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.email
+{
+   margin-top: 20px;
+}
+/* end of contact */
+}
